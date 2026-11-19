@@ -11,25 +11,26 @@ Here are 10 LeetCode problems I solved in C for my first semester of BCA. This p
 
 | No. | Problem | LeetCode Link |
 | :--- | :--- | :--- |
-| 1 | Add Two Numbers | [View Problem](https://leetcode.com/problems/add-two-numbers/description/) |
-| 2 | Container With Most Water | [View Problem](https://leetcode.com/problems/container-with-most-water/description/) |
-| 3 | Longest Common Prefix | [View Problem](https://leetcode.com/problems/longest-common-prefix/description/) |
-| 4 | Longest Palindromic Substring | [View Problem](https://leetcode.com/problems/longest-palindromic-substring/description/) |
-| 5 | Longest Substring Without Repeating Charactersy | [View Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |
-| 6 | Median of Two Sorted Arrays | [View Problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) |
-| 7 | Regular Expression Matching | [View Problem](https://leetcode.com/problems/regular-expression-matching/description/) |
-| 8 | Remove Duplicates from Sorted Array | [View Problem](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |
-| 9 | Remove Element | [View Problem](https://leetcode.com/problems/remove-element/description/) |
-| 10 | Search Insert Position | [View Problem](https://leetcode.com/problems/search-insert-position/description/) |
+| 1 | Add Two Numbers | [View Solution](https://leetcode.com/problems/add-two-numbers/description/) |
+| 2 | Container With Most Water | [View Solution](https://leetcode.com/problems/container-with-most-water/description/) |
+| 3 | Longest Common Prefix | [View Solution](https://leetcode.com/problems/longest-common-prefix/description/) |
+| 4 | Longest Palindromic Substring | [View Solution](https://leetcode.com/problems/longest-palindromic-substring/description/) |
+| 5 | Longest Substring Without Repeating Charactersy | [View Solution](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |
+| 6 | Median of Two Sorted Arrays | [View Solution](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) |
+| 7 | Regular Expression Matching | [View Solution](https://leetcode.com/problems/regular-expression-matching/description/) |
+| 8 | Remove Duplicates from Sorted Array | [View Solution](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |
+| 9 | Remove Element | [View Solution](https://leetcode.com/problems/remove-element/description/) |
+| 10 | Search Insert Position | [View Solution](https://leetcode.com/problems/search-insert-position/description/) |
 
 ## Concepts Covered
 
-* Arrays and Strings
+* Arrays
 * Pointers
-* Searching Algorithms
-* Two-Pointer Technique
-* Greedy Algorithms
-* Basic Problem Solving
+* Algorithms
+* Strings
+* Character Arrays
+* Linked List
+* Structures
 
 ## GitHub Workflow
 
