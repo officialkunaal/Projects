@@ -1,0 +1,43 @@
+int expandFromCenter(char* s, int n, int left, int right) {
+    while (left >= 0 && right < n && *(s + left) == *(s + right)) {
+        left--;
+        right++;
+    }
+    
+    return right - left - 1;
+}
+
+char* longestPalindrome(char* s) {
+    int n = 0;
+    while (*(s + n) != '\0') {
+        n++;
+    }
+
+    if (n <= 1) {
+        return s;
+    }
+
+    int start = 0;
+    int max_len = 1;
+
+    for (int i = 0; i < n; i++) {
+        
+        int len1 = expandFromCenter(s, n, i, i);
+        
+        int len2 = expandFromCenter(s, n, i, i + 1);
+
+        int len = (len1 > len2) ? len1 : len2;
+        if (len > max_len) {
+            max_len = len;
+            start = i - (len - 1) / 2;
+        }
+    }
+
+    char* result = (char*)malloc((max_len + 1) * sizeof(char));
+    for (int i = 0; i < max_len; i++) {
+        *(result + i) = *(s + start + i);
+    }
+    *(result + max_len) = '\0';
+
+    return result;
+}
